@@ -2,9 +2,10 @@
 body {
   font-family: 'Roboto', sans-serif; }
 
-nav ul a,
-nav .brand-logo {
+nav {
   color: #444; }
+  nav .brand-logo .material-icons {
+    font-size: 2em; }
 
 p {
   line-height: 2rem; }
@@ -21,6 +22,15 @@ p {
 .parallax-container .section {
   width: 100%; }
 
+.icon-block {
+  padding: 0 15px; }
+
+.icon-block .material-icons {
+  font-size: inherit; }
+
+footer.page-footer {
+  margin: 0; }
+
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
@@ -31,13 +41,5 @@ p {
 @media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0; } }
-.icon-block {
-  padding: 0 15px; }
-
-.icon-block .material-icons {
-  font-size: inherit; }
-
-footer.page-footer {
-  margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
